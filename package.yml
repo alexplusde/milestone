@@ -1,7 +1,7 @@
-package: blaupause # Addon-Key, ggf. wie er bei MyREDAXO hinterlegt ist.
-version: '2.0.0-dev' # Aktuelle Version. 
-author: 'Alexander Walther' # Name(n) der Autoren, wird im Installer gezeigt
-supportpage: https://github.com/alexplusde/blaupause # Support-Seite, wird im Installer gezeigt
+package: milestone # Addon-Key, ggf. wie er bei MyREDAXO hinterlegt ist.
+version: '1.0.0-dev' # Aktuelle Version. 
+author: 'Paul Götz, Alexander Walther' # Name(n) der Autoren, wird im Installer gezeigt
+supportpage: https://github.com/alexplusde/milestone # Support-Seite, wird im Installer gezeigt
 # load: late 
 
 requires:                       # Abhängigkeiten definieren, z.B.
@@ -14,34 +14,34 @@ requires:                       # Abhängigkeiten definieren, z.B.
 #       metainfo: ">2"
 
 page:
-    title: translate:blaupause_title    # Übersetzung definieren in lang/de_de.lang
-    prio: 100                       # Reihenfolge in Relation zur Prio anderer Menüeinträge 
+    title: translate:milestone_title    # Übersetzung definieren in lang/de_de.lang
+    prio: 100                           # Reihenfolge in Relation zur Prio anderer Menüeinträge 
     icon: rex-icon fa-gear
 
 pages:
-    blaupause: # key, unter dem die Seite zu finden sein wird. Passende Datei im Addon-Verzeichnis `pages/blaupause.blaupausepage.php` muss vorhanden sein.
-        title: translate:blaupause_title
+    milestone: # key, unter dem die Seite zu finden sein wird. Passende Datei im Addon-Verzeichnis `pages/milestone.milestonepage.php` muss vorhanden sein.
+        title: translate:milestone_title
 #        main: true                 
-        block: system               # 'system', um ins Hauptmenü zu verschieben, oder 'blaupause', um eigenen blaupause-Abschnitt zu erstellen. Weglassen, um bei den Addons gelistet zu werden 
+        block: system               # 'system', um ins Hauptmenü zu verschieben, oder 'milestone', um eigenen milestone-Abschnitt zu erstellen. Weglassen, um bei den Addons gelistet zu werden 
         prio: 15                    # Reihenfolge in Abhängigkeit anderer Addons
         icon: rex-icon fa-calendar  # Icon neben dem Menüpunkt
-        perm: blaupause[]               # Berechtigung, die einer Rolle zugewiesen werden kann. z.B. `admin` für Admin, oder `blaupause['xyz']` für dein eigenes Addon
-        subpages:                   # Automatisches Untermenü unterhalb des Reisters von `blaupausepage` erzeugen
+        perm: milestone[]               # Berechtigung, die einer Rolle zugewiesen werden kann. z.B. `admin` für Admin, oder `milestone['xyz']` für dein eigenes Addon
+        subpages:                   # Automatisches Untermenü unterhalb des Reisters von `milestonepage` erzeugen
             table:
-                title: translate:blaupause_table
+                title: translate:milestone_table
                 icon: rex-icon fa-gear
-                perm: blaupause[]
+                perm: milestone[]
             settings:
-                title: translate:blaupause_settings
+                title: translate:milestone_settings
                 icon: rex-icon fa-gear
                 itemclass: pull-right
                 perm: admin
             docs:
-                title: translate:blaupause_docs
+                title: translate:milestone_docs
                 subPath: README.md  # Gibt anstelle einer Seite unter `pages` die README.md des Addons aus
                 icon: rex-icon fa-info-circle
                 itemclass: pull-right
-                perm: blaupause[docs]
+                perm: milestone[docs]
 
-default_config:
-    field: 'Test' # Bei der Installation belegt REDAXO automatisch in der rex_config-Tabelle im Namespace `blaupause` im Feld `field` den Wert `Test` 
+# default_config:
+#    field: 'Test' # Bei der Installation belegt REDAXO automatisch in der rex_config-Tabelle im Namespace `milestone` im Feld `field` den Wert `Test` 

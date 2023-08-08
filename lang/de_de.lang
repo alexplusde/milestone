@@ -1,16 +1,16 @@
-blaupause_title = Blaupause
+milestone_title = Meilensteine
 
-blaupause_table = Blaupause
-blaupause_settings = Einstellungen
-blaupause_docs = Hilfe
+milestone_table = Meilensteine
+milestone_settings = Einstellungen
+milestone_docs = Hilfe
 
 # FriendsOfREDAXO-Addons können bei YTraduco zur Übersetzung eingereicht werden
 
 # Konfigurationsformulare
-blaupause_config = Einstellungen
-blaupause_config_mytextfield_label = Test-Feld
-blaupause_config_mytextfield_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
+milestone_config = Einstellungen
+milestone_config_mytextfield_label = Test-Feld
+milestone_config_mytextfield_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
 
 # YForm Tablelen-Übersetzung
-blaupause_table_name_label = Name
-blaupause_table_name_notice = Notiz, die etwas erklärt und auch einen Beispielwert nennen kann, z.B.: <code>Mein Name</code> 
+milestone_table_name_label = Name
+milestone_table_name_notice = Notiz, die etwas erklärt und auch einen Beispielwert nennen kann, z.B.: <code>Mein Name</code> 
