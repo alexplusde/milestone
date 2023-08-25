@@ -1,9 +1,9 @@
-# Blaupause - Dieses Repository kopieren, anpassen, AddOn-Entwicklung für REDAXO starten
+# milestone - Dieses Repository kopieren, anpassen, AddOn-Entwicklung für REDAXO starten
 
 Vorlage für REDAXO-Addons für einen schnelleren Start bei der Addon-Entwicklung.
 
-1. https://github.com/alexplusde/blaupause/archive/refs/heads/main.zip ZIP der aktuellen Vorlage herunterladen oder direkt in GitHub ein Repo auf Basis von `alexplusde/blaupause` erstellen: https://github.com/new/import und dort `https://github.com/alexplusde/blaupause.git` angeben.
-2. Mit "Suchen und Ersetzen" alles, was `blaupause` heißt, durch den Namen deines Addons ersetzen, z.B. `supi-dupi-kalender`, und speichern. Sowohl Dateinamen, als auch Dateiinhalte. 
+1. https://github.com/alexplusde/milestone/archive/refs/heads/main.zip ZIP der aktuellen Vorlage herunterladen oder direkt in GitHub ein Repo auf Basis von `alexplusde/milestone` erstellen: https://github.com/new/import und dort `https://github.com/alexplusde/milestone.git` angeben.
+2. Mit "Suchen und Ersetzen" alles, was `milestone` heißt, durch den Namen deines Addons ersetzen, z.B. `supi-dupi-kalender`, und speichern. Sowohl Dateinamen, als auch Dateiinhalte. 
 3. Alles löschen, was du aktuell nicht brauchst (oder für später auskommentiert lassen)
 
 ## Features
@@ -32,13 +32,17 @@ Gängige Code-Beispiele, die in Abhängigkeit der Vorgänger-Version deines Addo
 
 Alle Code-Beispiele, die du in der `install.php` nutzt, können hier wieder rückkgängig gemacht werden.
 
+### `lib/milestone.php`
+
+Liefere passende YOrm Dataset-Methoden mit deinem Addon. Diese kannst du dir ganz einfach mithilfe von <https://github.com/alexplusde/ymca> erstellen lassen, wenn dein Tableset soweit fertig ist.
+
 ### `lang/`
 
-Blaupause für deine eigene Sprachdatei. Beginne die Addon-Entwicklung direkt so, dass weitere Sprachen ohne Anpassungen ergänzt werden können.
+milestone für deine eigene Sprachdatei. Beginne die Addon-Entwicklung direkt so, dass weitere Sprachen ohne Anpassungen ergänzt werden können.
 
 ### `fragmente/`
 
-Blaupause für die Nutzung eigener Fragmente.
+milestone für die Nutzung eigener Fragmente.
 
 ### Docs-Seite
 
@@ -50,7 +54,7 @@ Beginne mit einem Konfigurations-Formular, das bereits best practice in REDAXO u
 
 ## Lizenz
 
-MIT Lizenz, siehe [LICENSE.md](https://github.com/alexplusde/blaupause/blob/master/LICENSE.md)  
+MIT Lizenz, siehe [LICENSE.md](https://github.com/alexplusde/milestone/blob/master/LICENSE.md)  
 
 ## Autoren
 

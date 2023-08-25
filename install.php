@@ -8,13 +8,13 @@ if (rex_addon::get('yform')->isAvailable() && !rex::isSafeMode()) {
 }
 
 /*
-$modules = scandir(rex_path::addon("blaupause")."module");
+$modules = scandir(rex_path::addon("milestone")."module");
 
 foreach ($modules as $module) {
     if ($module == "." || $module == "..") {
         continue;
     }
-    $module_array = json_decode(rex_file::get(rex_path::addon("blaupause")."module/".$module), 1);
+    $module_array = json_decode(rex_file::get(rex_path::addon("milestone")."module/".$module), 1);
 
     rex_sql::factory()->setDebug(0)->setTable("rex_module")
     ->setValue("name", $module_array['name'])
@@ -22,7 +22,7 @@ foreach ($modules as $module) {
     ->setValue("input", $module_array['input'])
     ->setValue("output", $module_array['output'])
     ->setValue("createuser", "")
-    ->setValue("updateuser", "blaupause")
+    ->setValue("updateuser", "milestone")
     ->setValue("createdate", date("Y-m-d H:i:s"))
     ->setValue("updatedate", date("Y-m-d H:i:s"))
     ->insertOrUpdate();

@@ -1,16 +1,22 @@
 milestone_title = Meilensteine
 
-milestone_table = Meilensteine
+milestone_table = 🪨 Meilensteine
 milestone_settings = Einstellungen
 milestone_docs = Hilfe
 
-# FriendsOfREDAXO-Addons können bei YTraduco zur Übersetzung eingereicht werden
-
 # Konfigurationsformulare
 milestone_config = Einstellungen
-milestone_config_mytextfield_label = Test-Feld
-milestone_config_mytextfield_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
 
-# YForm Tablelen-Übersetzung
-milestone_table_name_label = Name
-milestone_table_name_notice = Notiz, die etwas erklärt und auch einen Beispielwert nennen kann, z.B.: <code>Mein Name</code> 
+# YForm Tabellen-Übersetzung
+
+milestone_title = Titel
+milestone_description = Beschreibung
+milestone_image = Bild
+milestone_date = Datum / Jahr
+milestone_createdate = Erstellt am...
+milestone_updatedate = Zuletzt geändert am...
+milestone_createuser = Erstellt von...
+milestone_updateuser = zuletzt geändert von...
+milestone_status = Status
+milestone_status_online = veröffentlicht
+milestone_status_offline = Entwurf
