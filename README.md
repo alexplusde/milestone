@@ -1,4 +1,4 @@
-# Mileston-Addon - Einträge für Meilensteine / Firmengeschichte erstellen und verwalten
+# Milestone-Addon - Einträge für Meilensteine / Firmengeschichte erstellen und verwalten
 
 ## Features
 
