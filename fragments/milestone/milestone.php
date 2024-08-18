@@ -19,7 +19,7 @@ $milestones = \Alexplusde\Milestone\Entry::query()->where('status', 1)->find();
 					alt="<?= $milestone->getTitle(); ?>">
 			</div>
 			<div class="col-6 col-md-3 text-center">
-				<?= rex_formatter::date($milestone->getDate(), 'YYYY'); ?>
+				<?= rex_formatter::date($milestone->getDate(), 'Y'); ?>
 			</div>
 			<div class="col-6 col-md-6 ps-5 description">
 				<?= $milestone->getTitle(); ?>
