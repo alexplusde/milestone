@@ -1,23 +1,24 @@
-# Milestone-Addon - Einträge für Meilensteine / Firmengeschichte erstellen und verwalten
+# Meilensteine für REDAXO CMS 5
+
+Erstelle eine Firmenchronik oder Meilensteine in der Firmengeschichte mit diesem Addon.
 
 ## Features
 
 ## Lizenz
 
-MIT Lizenz, siehe [LICENSE.md](https://github.com/alexplusde/testimonial/blob/master/LICENSE.md)  
+MIT Lizenz, siehe [LICENSE.md](https://github.com/alexplusde/milestone/blob/master/LICENSE.md)  
 
 ## Autoren
 
-**Addon-Vorlage von**
-**Alexander Walther**  
-http://www.alexplus.de  
-https://github.com/alexplusde  
-
 **Paul Götz**  
-http://www.paulgoetz.de  
-https://github.com/schorschy  
+<http://www.paulgoetz.de>  
+<https://github.com/schorschy>  
+
+**Alexander Walther**  
+<http://www.alexplus.de>  
+<https://github.com/alexplusde>  
 
 **Projekt-Lead**  
-[Paul Götz](https://github.com/schorschy)
+[Alexander Walther](https://github.com/alexplusde)
 
 ## Credits

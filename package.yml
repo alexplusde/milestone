@@ -6,39 +6,30 @@ supportpage: https://github.com/alexplusde/milestone
 
 requires:
     php:
-        version: '>7.3,<9'
-    redaxo: ^5.13
+        version: '^8.2'
+    redaxo: ^5.16
     packages:
-        yform: "^4"
-
-
+        yform/manager: '^4'
+        yform_field: '^2.5.0'
 
 page:
-    title: translate:milestone_title
-    prio: 100
-    icon: rex-icon fa-gear
-
-pages:
-    milestone:
-        title: translate:milestone_title
-
-        block: system
-        prio: 15
-        icon: rex-icon fa-calendar
-        perm: milestone[]
-        subpages:
-            table:
-                title: translate:milestone_table
-                icon: rex-icon fa-gear
-                perm: milestone[]
+    title: translate:milestone
+    icon: rex-icon fa-gem
+    block: system
+    prio: 19
+    subpages:
+        entry:
+            title: translate:milestone_entry
+            icon: rex-icon fa-gem
+            perm: milestone[]
 #            settings:
 #                title: translate:milestone_settings
 #                icon: rex-icon fa-gear
 #                itemclass: pull-right
 #                perm: admin
-            docs:
-                title: translate:milestone_docs
-                subPath: README.md
-                icon: rex-icon fa-info-circle
-                itemclass: pull-right
-                perm: milestone[docs]
+        docs:
+            title: translate:milestone_docs
+            subPath: README.md
+            icon: rex-icon fa-info-circle
+            itemclass: pull-right
+            perm: milestone[docs]
