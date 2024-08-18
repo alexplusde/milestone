@@ -1,4 +1,4 @@
-milestone_title = Meilensteine
+milestone = Meilensteine
 
 milestone_table = 🪨 Meilensteine
 milestone_settings = Einstellungen
@@ -9,6 +9,7 @@ milestone_config = Einstellungen
 
 # YForm Tabellen-Übersetzung
 
+milestone_entry = Meilensteine
 milestone_title = Titel
 milestone_description = Beschreibung
 milestone_image = Bild
@@ -18,5 +19,6 @@ milestone_updatedate = Zuletzt geändert am...
 milestone_createuser = Erstellt von...
 milestone_updateuser = zuletzt geändert von...
 milestone_status = Status
-milestone_status_online = veröffentlicht
-milestone_status_offline = Entwurf
+milestone_status_published = ✅ Veröffentlicht
+milestone_status_offline = 🟨 Entwurf
+milestone_uuid = UUID
